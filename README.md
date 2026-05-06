@@ -1,251 +1,465 @@
-# 🛒 Retail Sales Performance Analytics Dashboard
+# 🚀 Retail Sales Performance Analytics Dashboard  
+### End-to-End Retail Analytics Project | Excel + Power BI + SQL
 
-## 📌 Project Overview
-
-This project is a comprehensive retail analytics case study focused on understanding **sales performance, delivery efficiency, product profitability, and regional market dynamics**.
-
-The analysis evaluates the complete retail business performance — from revenue generation to customer satisfaction — to uncover **operational bottlenecks, profit drivers, and growth opportunities**.
-
----
-
-## 🎯 Business Objective
-
-The business operates across multiple regions and product categories with varying levels of performance and customer satisfaction.
-
-### Key Goals:
-- Identify high-performing and underperforming regions  
-- Analyze product profitability and sales contribution  
-- Improve delivery performance and customer satisfaction  
-- Optimize regional and category-level strategies  
-- Drive revenue growth through data-driven insights  
-
----
-
-## 🧠 Analytical Approach
-
-The analysis is structured across key business dimensions:
-
-- **Revenue Performance** → Regional and category-level contribution  
-- **Product Analysis** → Profitability and sales trends  
-- **Delivery Performance** → On-time delivery impact on ratings  
-- **Customer Satisfaction** → Rating trends and delivery correlation  
-- **Sales Trends** → Temporal patterns and seasonality  
-
----
-
-## 🧱 Data Architecture
-
-### 📊 Core Analytics Tables
-
-- `Sales Data` → Order-level transactions with revenue and profit  
-- `Regional Performance` → Region-wise sales and profitability  
-- `Product Categories` → Product-level performance metrics  
-- `Delivery Tracking` → Delivery status and performance indicators  
-- `Customer Ratings` → Customer satisfaction and feedback  
-- `Payment Methods` → Payment mode distribution  
-
----
-
-## 📊 Key Analysis Performed
-
-- Regional revenue and profit analysis  
-- Product category performance evaluation  
-- Delivery performance impact on customer ratings  
-- Sales trend analysis and seasonality  
-- Customer satisfaction metrics  
-- Profitability by region and product  
-
----
-
-## 🔍 Key Insights
-
-### 1. Regional Performance Varies Significantly
-- Top regions consistently generate **30-40% higher revenue**  
-- Profit margins vary by region due to operational efficiency  
-
-👉 **Opportunity:** Scale high-performing regions and improve underperforming markets
-
----
-
-### 2. Delivery Performance Directly Impacts Customer Ratings
-- On-time deliveries have **15-20% higher customer satisfaction**  
-- Delayed deliveries lead to negative ratings  
-
-👉 **Opportunity:** Invest in logistics optimization
-
----
-
-### 3. Product Category Performance is Uneven
-- Top 20% of products generate **60% of total revenue**  
-- Some categories have low margins despite high volume  
-
-👉 **Opportunity:** Focus on high-margin products and optimize low-performers
-
----
-
-### 4. Customer Satisfaction Trends Show Correlation with Service Quality
-- Ratings improve with faster delivery  
-- Customer satisfaction directly impacts repeat business  
-
-👉 **Opportunity:** Service excellence drives loyalty
-
----
-
-### 5. Seasonal Patterns Drive Revenue Fluctuations
-- Peak seasons show **40-50% higher revenue**  
-- Off-season planning critical for cash flow  
-
-👉 **Opportunity:** Inventory and staffing optimization
-
----
-
-### 6. Payment Methods Show Different Customer Behaviors
-- Credit card payments = higher average order value  
-- Cash payments = more frequent repeat purchases  
-
-👉 **Opportunity:** Incentivize high-value payment methods
-
----
-
-## 💣 Root Causes Identified
-
-> **Primary Challenge:** Inconsistent delivery performance leading to customer dissatisfaction in certain regions, impacting repeat purchases and long-term profitability.
-
-> **Secondary Challenge:** Unoptimized product portfolio with many low-margin SKUs consuming resources.
-
----
-
-## 💡 Recommendations
-
-### 🚀 Prioritize Delivery Excellence (Highest Impact)
-- Establish region-specific delivery targets  
-- Implement real-time tracking systems  
-- Partner with reliable logistics providers  
-
-**Why:**  
-Direct correlation between on-time delivery and customer satisfaction → increased customer lifetime value  
-
----
-
-### 🚀 Optimize Product Portfolio
-- Discontinue low-margin products  
-- Expand high-performing product categories  
-- Implement dynamic pricing strategies  
-
-**Why:**  
-Streamline SKU mix → improve overall profitability  
-
----
-
-### 🚀 Focus on High-Performing Regions
-- Replicate best practices from top regions  
-- Allocate resources based on ROI  
-- Develop region-specific strategies  
-
-**Why:**  
-Standardize excellence across all markets  
-
----
-
-### 🚀 Enhance Customer Satisfaction Programs
-- Implement loyalty programs for repeat purchases  
-- Target customers in low-satisfaction regions  
-- Offer incentives for timely delivery feedback  
-
-**Why:**  
-Improve customer lifetime value and retention  
-
----
-
-### 🚀 Implement Seasonal Planning Strategy
-- Build inventory based on historical seasonal patterns  
-- Adjust staffing for peak and off-season  
-- Plan promotional campaigns ahead of peak seasons  
-
-**Why:**  
-Maximize revenue during peak periods and maintain stability during off-seasons  
-
----
-
-## 📊 Expected Business Impact
-
-- On-time delivery rate: **Current → 95%+**  
-- Average customer rating: **3.5 → 4.5+**  
-- Revenue growth: **+15-25%** through optimization  
-- Profit margin improvement: **+5-10%** through portfolio optimization  
-- Customer retention: **+20-30%** through satisfaction improvement  
-
----
-
-## 📊 Dashboard Features
-
-The Power BI dashboard includes:
-   - Executive Overview (KPIs & Trend Analysis)  
-   - Regional Performance Analysis  
-   - Product Category Performance  
-   - Delivery & Customer Satisfaction  
-   - Sales Trend Analysis  
-
----
-
-### 🔥 Advanced Features Implemented
-
-- Multi-page interactive dashboard  
-- Real-time KPI tracking  
-- Dynamic filters (Region, Category, Time Period)  
-- Drill-down capabilities for detailed analysis  
-- Customer satisfaction trend tracking  
-
----
-
-## 📸 Dashboard Preview
-
-### 🔹 Executive Overview
 <p align="center">
-  <img src="images/overview.png" width="900" alt="Executive Overview Dashboard">
+  <img src="images/dashboard_overview.png" width="1000">
 </p>
 
 ---
 
-### 🔹 Regional Performance Analysis
+# 📌 Project Overview
+
+This project is a complete end-to-end **Retail Sales Analytics Dashboard** developed using **SQL, Excel, and Power BI** to analyze sales performance, profitability, customer ratings, delivery behavior, payment methods, and regional sales trends using a **30,000+ row Global Electronics Retail dataset**.
+
+The project simulates a real-world retail reporting system used by business and operations teams to monitor KPIs, identify profitable regions and categories, and support data-driven decision making.
+
+The dashboard focuses on transforming raw retail data into meaningful business insights through interactive reporting and analytical storytelling.
+
+---
+
+# 🎯 Business Objective
+
+The main objective of this project was to help business stakeholders answer key retail performance questions such as:
+
+- Which regions generate the highest sales and profit?
+- Which product categories perform best?
+- How do monthly and yearly sales trends change over time?
+- What is the breakdown of delivery statuses?
+- Which payment methods are most used by customers?
+- How do customer ratings vary across product categories?
+- Which categories contribute the highest profitability?
+
+---
+
+# 🛠 Tech Stack
+
+| Tool / Technology | Purpose |
+|---|---|
+| SQL | Data Cleaning, Aggregations & KPI Validation |
+| Excel | Pivot Tables, Pivot Charts, Dashboard Reporting |
+| Power BI | Interactive Dashboard Development |
+| DAX | KPI Calculations & Business Metrics |
+| Power Query | Data Transformation |
+| Star Schema Modeling | Efficient Data Modeling & Reporting |
+
+---
+
+# 📂 Dataset Information
+
+The project uses a Global Electronics Retail dataset containing more than **30,000 transactional records**.
+
+## Dataset Includes
+
+- Sales Amount
+- Profit
+- Quantity
+- Product Category
+- Delivery Status
+- Payment Mode
+- Customer Ratings
+- Sales Region
+- Order Date
+- Year & Month Information
+
+---
+
+# 🧹 Data Cleaning & Preparation
+
+SQL and Excel were used for data preprocessing and validation.
+
+## Cleaning Steps Performed
+
+- Removed duplicates
+- Handled missing values
+- Standardized category names
+- Validated sales & profit calculations
+- Corrected data types
+- Created summary reports using SQL aggregations
+
+---
+
+# 🧠 SQL Analysis Performed
+
+SQL was used to perform:
+
+- Sales aggregations
+- Profit analysis
+- Regional sales reporting
+- Category-level analysis
+- Monthly sales trends
+- Delivery status analysis
+- Payment mode breakdown
+- KPI validation
+
+## Example KPIs
+
+- Total Sales
+- Total Profit
+- Total Orders
+- Average Rating
+- Regional Profit
+- Category Sales
+- Delivery Status Count
+
+---
+
+# 📊 Dashboard Features
+
+The dashboard includes multiple analytical views for business reporting.
+
+---
+
+# 📈 Dashboard Sections
+
+# 1️⃣ Executive Dashboard
+
+Provides a high-level business overview.
+
+## KPI Cards Included
+
+- Total Sales
+- Total Profit
+- Total Orders
+- Average Customer Rating
+
+## Key Insights
+
+- Total sales reached approximately **169.91M**
+- Total profit exceeded **21.63M**
+- Average customer rating remained around **3.0**
+- Total orders crossed **30K**
+
+---
+
+# 2️⃣ Sales by Region Analysis
+
+Analyzes regional sales contribution across global markets.
+
+## Key Insights
+
+- Africa generated the highest sales contribution
+- North America and Europe maintained stable sales performance
+- Asia showed comparatively lower sales contribution
+- Regional sales distribution remained relatively balanced
+
+---
+
+# 3️⃣ Monthly Sales Trend Analysis
+
+Tracks sales performance over time.
+
+## Analysis Included
+
+- Year-wise sales comparison
+- Monthly sales trends
+- Seasonal fluctuations
+- Trend visualization
+
+## Key Insights
+
+- 2024 generated the highest yearly sales
+- Monthly sales showed moderate fluctuations
+- Revenue remained stable across most periods
+
+---
+
+# 4️⃣ Product Category Performance
+
+Analyzes category-level revenue contribution.
+
+## Categories Included
+
+- Laptops
+- Mobiles
+- Accessories
+- Televisions
+
+## Key Insights
+
+- Laptops generated the highest sales
+- Mobile category maintained strong performance
+- Product revenue contribution remained balanced across categories
+
+---
+
+# 5️⃣ Profit by Category & Region
+
+Focused on profitability analysis.
+
+## Key Insights
+
+- Laptop category generated the highest profit
+- Africa region contributed the highest overall profitability
+- Profitability remained relatively consistent across regions
+
+---
+
+# 6️⃣ Delivery Status Breakdown
+
+Analyzes operational order delivery performance.
+
+## Delivery Categories
+
+- Delivered
+- Pending
+- Returned
+
+## Key Insights
+
+- Delivered orders represented approximately one-third of all orders
+- Returned orders remained unexpectedly high
+- Pending orders indicated possible operational delays
+
+## Business Observation
+
+The high return percentage may indicate:
+
+- Product quality concerns
+- Delivery experience issues
+- Customer expectation mismatch
+
+---
+
+# 7️⃣ Payment Mode Analysis
+
+Analyzes customer payment preferences.
+
+## Payment Methods Included
+
+- Cash
+- Card
+- UPI
+- Wallet
+
+## Key Insights
+
+- Payment distribution remained balanced
+- Digital payment adoption was strong
+- UPI and Card transactions contributed significantly
+
+---
+
+# 8️⃣ Customer Rating Analysis
+
+Focused on product satisfaction and customer experience.
+
+## Key Insights
+
+- Television category achieved the highest rating
+- Overall average rating remained around **3.01**
+- Ratings across categories were relatively close
+
+## Business Observation
+
+Moderate ratings indicate opportunities to improve:
+
+- Product quality
+- Customer support
+- Delivery experience
+
+---
+
+# ⚡ Advanced Dashboard Features
+
+## Implemented Features
+
+- Interactive Slicers
+- Dynamic Filtering
+- KPI Cards
+- Pivot Charts
+- Regional Drill Analysis
+- Category-Level Analysis
+- Trend Analysis
+- Business Storytelling Visuals
+- Multi-Page Reporting
+- Time-Based Analysis
+
+---
+
+# 🧩 Data Modeling
+
+A simplified analytical data model was implemented to support scalable reporting and efficient filtering.
+
+## Model Highlights
+
+- Fact-based sales reporting
+- Category & regional segmentation
+- Time-based filtering
+- Optimized relationships for dashboard performance
+
+---
+
+# 💼 Business Impact
+
+This dashboard helps business stakeholders:
+
+- Monitor sales and profitability
+- Identify high-performing regions
+- Analyze category-level performance
+- Improve operational delivery tracking
+- Understand customer satisfaction
+- Support pricing and inventory decisions
+- Improve business reporting efficiency
+
+---
+
+# 🚀 Strategic Recommendations
+
+# 1️⃣ Reduce Product Returns
+
+Returned orders are significantly high.
+
+## Recommended Actions
+
+- Improve product quality checks
+- Optimize packaging and delivery handling
+- Improve product descriptions and expectations
+
+---
+
+# 2️⃣ Improve Customer Ratings
+
+Average ratings remain moderate.
+
+## Recommended Actions
+
+- Enhance customer support
+- Improve post-purchase experience
+- Collect customer feedback regularly
+
+---
+
+# 3️⃣ Expand High-Profit Categories
+
+Laptop and Mobile categories perform strongly.
+
+## Recommended Actions
+
+- Increase inventory allocation
+- Launch targeted promotions
+- Expand premium product offerings
+
+---
+
+# 4️⃣ Optimize Regional Strategy
+
+Africa and North America show strong performance.
+
+## Recommended Actions
+
+- Increase marketing investment in high-performing regions
+- Identify growth opportunities in lower-performing markets
+
+---
+
+# 5️⃣ Strengthen Delivery Operations
+
+Pending orders indicate operational inefficiencies.
+
+## Recommended Actions
+
+- Improve logistics coordination
+- Reduce delivery delays
+- Monitor fulfillment KPIs regularly
+
+---
+
+# 🔑 Key Skills Demonstrated
+
+- SQL Analysis
+- Excel Dashboarding
+- Power BI Reporting
+- DAX Calculations
+- KPI Development
+- Retail Analytics
+- Business Intelligence
+- Data Cleaning
+- Trend Analysis
+- Business Storytelling
+- Sales Analytics
+- Profitability Analysis
+
+---
+
+# 📸 Dashboard Preview
+
+## 🔹 Executive Dashboard
+
 <p align="center">
-  <img src="images/regional_performance.png" width="900" alt="Regional Performance Dashboard">
+  <img src="images/dashboard_overview.png" width="1000">
 </p>
 
 ---
 
-### 🔹 Product Category Performance
+## 🔹 Sales by Region
+
 <p align="center">
-  <img src="images/product_performance.png" width="900" alt="Product Performance Dashboard">
+  <img src="images/sales_by_region.png" width="1000">
 </p>
 
 ---
 
-### 🔹 Delivery & Customer Satisfaction
+## 🔹 Monthly Sales Trend
+
 <p align="center">
-  <img src="images/delivery_satisfaction.png" width="900" alt="Delivery and Satisfaction Dashboard">
+  <img src="images/monthly_sales_trend.png" width="1000">
 </p>
 
 ---
 
-### 🔹 Sales Trend Analysis
+## 🔹 Top Product Categories
+
 <p align="center">
-  <img src="images/sales_trends.png" width="900" alt="Sales Trends Dashboard">
+  <img src="images/top_products.png" width="1000">
 </p>
 
 ---
 
-## 🔧 Tools & Technologies
+## 🔹 Profit by Category & Region
 
-- **Excel** – Data cleaning, pivot tables, and reporting  
-- **Power Query** – Data transformation and ETL  
-- **Power BI** – Interactive dashboard visualization and KPI tracking  
+<p align="center">
+  <img src="images/profit_by_region_category.png" width="1000">
+</p>
+
+---
+
+## 🔹 Delivery Status Breakdown
+
+<p align="center">
+  <img src="images/delivery_status.png" width="1000">
+</p>
 
 ---
 
-## 📫 Connect With Me
+## 🔹 Average Rating Analysis
 
-- **LinkedIn:** https://www.linkedin.com/in/ankit5517  
-- **Email:** ankitkumar473mail@gmail.com
+<p align="center">
+  <img src="images/average_rating.png" width="1000">
+</p>
 
 ---
+
+# 👨‍💻 Author
+
+## Ankit Kumar  
+Aspiring Data Analyst | Power BI | SQL | Excel | Business Analytics
+
+- GitHub: https://github.com/ankitkumargaya
+- LinkedIn: Add Your LinkedIn Profile Here
+
+---
+
+# 📌 Final Conclusion
+
+This project demonstrates how retail transactional data can be transformed into an interactive business intelligence solution using SQL, Excel, and Power BI.
+
+The dashboard enables business teams to monitor:
+
+- Sales performance
+- Profitability
+- Customer satisfaction
+- Operational efficiency
+- Product performance
+- Regional growth trends
+
+This project reflects practical analytics and reporting skills commonly used in real-world retail and e-commerce analytics environments.
