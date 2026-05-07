@@ -445,7 +445,7 @@ Pending orders indicate operational inefficiencies.
 Aspiring Data Analyst | Power BI | SQL | Excel | Business Analytics
 
 - GitHub: https://github.com/ankitkumargaya
-- LinkedIn: Add Your LinkedIn Profile Here
+- LinkedIn: https://www.linkedin.com/in/ankit5517
 
 ---
 
